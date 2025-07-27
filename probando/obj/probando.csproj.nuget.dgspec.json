@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/1stRepository/probando/probando.csproj": {}
+    "/Users/Gustavo/github/1stRepository/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/1stRepository/probando/probando.csproj": {
+    "/Users/Gustavo/github/1stRepository/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/1stRepository/probando/probando.csproj",
+        "projectUniqueName": "/Users/Gustavo/github/1stRepository/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/1stRepository/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/1stRepository/probando/obj/",
+        "projectPath": "/Users/Gustavo/github/1stRepository/probando/probando.csproj",
+        "packagesPath": "/Users/Gustavo/.nuget/packages/",
+        "outputPath": "/Users/Gustavo/github/1stRepository/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/Gustavo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,16 +32,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
